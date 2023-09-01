@@ -1,0 +1,67 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.bemvindo {
+    margin-top: 50px;
+}
+
+.bemvindo h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.bemvindo h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4418e6;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.button2{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4418e6;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button1:hover {
+    background-color: #00070e;
+}
+.button2:hover {
+    background-color: #040a12;
+}
